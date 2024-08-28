@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 /**
  * The mock for HttpResponseMessage, can be used in unit tests to verify if the
- * returned response by HTTP trigger function is correct or not.
+ * returned responsxe by HTTP trigger function is correct or not.
  */
 public class HttpResponseMessageMock implements HttpResponseMessage {
     private int httpStatusCode;

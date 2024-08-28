@@ -23,7 +23,7 @@ repositories {
 }
 
 azurefunctions {
-    resourceGroup = 'java-functions-group'
+    resourceGroup = VM1_group
     appName = 'azure-functions-sample'
     pricingTier = 'Consumption'
     region = 'westus'

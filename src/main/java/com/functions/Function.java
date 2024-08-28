@@ -52,7 +52,7 @@ public class Function {
 
     /**
      * This function listens at endpoint "/api/HttpExampleRetry". The function is re-executed in case of errors until the maximum number of retries occur.
-     * Retry policies: https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=java
+     * Retry policies:  https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages?tabs=java
      */
     @FunctionName("HttpExampleRetry")
     @FixedDelayRetry(maxRetryCount = 3, delayInterval = "00:00:05")

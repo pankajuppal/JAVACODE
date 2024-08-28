@@ -17,8 +17,7 @@
         <azure.functions.java.library.version>1.4.2</azure.functions.java.library.version>
         <functionAppName>azure-functions-sample</functionAppName>
         <functionAppRegion>westus</functionAppRegion>
-        <functionResourceGroup>java-functions-group</functionResourceGroup>
-    </properties>
+         </properties>
 
     <dependencies>
         <dependency>
@@ -62,7 +61,7 @@
                     <!-- function app name -->
                     <appName>${functionAppName}</appName>
                     <!-- function app resource group -->
-                    <resourceGroup>${functionResourceGroup}</resourceGroup>
+                    <resourceGroup>VM1_group</resourceGroup>
                     <!-- function app service plan name -->
                     <appServicePlanName>java-functions-app-service-plan</appServicePlanName>
                     <!-- function app region-->
