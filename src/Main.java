@@ -12,6 +12,6 @@ public class Main {
         System.out.print("Enter the interest rate:");
         byte rate = scanner.nextByte();
         System.out.println("Interest to pay is : " + (Principal*rate)/100);
-
+        //Testing
         }
     }
